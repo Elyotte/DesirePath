@@ -63,22 +63,22 @@ public class GrassBunch : MonoBehaviour
         //lVertices[2] = 2;
 
         // Trace triangles using vertices coordinates array
-        for (int i = 0; i < 5; i++)
-        {
-            lVertices[i] = i;
-            lVertices[i +1] = i + 1;
-            lVertices[i +2] = i + 2;
-            //print(i);
-        }
+        //for (int i = 0; i < 5; i++)
+        //{
+        //    lVertices[i] = i;
+        //    lVertices[i +1] = i + 1;
+        //    lVertices[i +2] = i + 2;
+        //    //print(i);
+        //}
 
 
-        lMesh.vertices = lVerticesCoordinates;
-        lMesh.triangles = lVertices;
+        //lMesh.vertices = lVerticesCoordinates;
+        //lMesh.triangles = lVertices;
 
 
-        lMesh.RecalculateBounds();
-        lMesh.RecalculateNormals();
-        lMesh.RecalculateTangents();
+        //lMesh.RecalculateBounds();
+        //lMesh.RecalculateNormals();
+        //lMesh.RecalculateTangents();
 
         lMeshFilter.mesh = lMesh;
 
